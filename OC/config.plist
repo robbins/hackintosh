@@ -393,17 +393,41 @@
 		<array>
 			<dict>
 				<key>Address</key>
-				<integer>4275159040</integer>
+				<integer>3758096384</integer>
 				<key>Comment</key>
-				<string>Haswell: SB_RCBA is a 0x4 page memory region, containing SPI_BASE at 0x3800 (SPI_BASE_ADDRESS)</string>
+				<string>MMIO devirt 0xE0000000 (0x10000 pages)</string>
 				<key>Enabled</key>
 				<false/>
 			</dict>
 			<dict>
 				<key>Address</key>
-				<integer>4278190080</integer>
+				<integer>4143972352</integer>
 				<key>Comment</key>
-				<string>Generic: PCI root is a 0x1000 page memory region used by some types of firmware</string>
+				<string>MMIO devirt 0xF7000000 (0x7E00 pages)</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Address</key>
+				<integer>4276092928</integer>
+				<key>Comment</key>
+				<string>MMIO devirt 0xFEE00000 (0x1 page)</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Address</key>
+				<integer>4276097024</integer>
+				<key>Comment</key>
+				<string>MMIO devirt 0xFEE01000 (0x11FF pages)</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Address</key>
+				<integer>70330089472</integer>
+				<key>Comment</key>
+				<string>MMIO devirt 0x1060000000 (0x20200 pages)</string>
 				<key>Enabled</key>
 				<false/>
 			</dict>
@@ -442,7 +466,7 @@
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
-			<false/>
+			<true/>
 			<key>DisableSingleUser</key>
 			<false/>
 			<key>DisableVariableWrite</key>
